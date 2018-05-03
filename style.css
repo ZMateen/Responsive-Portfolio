@@ -1,0 +1,69 @@
+.container {
+    background-color: gainsboro;
+    width: 960px;
+    border: 30px;
+    padding: 40px;
+    margin: 30px;
+}
+
+h1 {
+    color: lightseagreen;
+    font-family: 'Georgia';
+    width: 960px;
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+    background-color: white;
+}
+
+aboutMe {
+    font-size: 100px;
+    text-align: left;
+    
+}
+
+body {
+    background-image: url("http://www.titlematchwrestling.com/wp-content/uploads/2014/05/Webpage-Background1.png"); 
+    background-repeat: no-repeat;
+    background-color: lightblue;
+    font-family: 'Helvetica';
+    font-size: 12px;
+    text-align: left;
+}
+
+img{
+    float: left;
+    height: 150px;
+    width: 200px;
+}
+
+.guitar {
+    border: 25px;
+    padding: 25px;
+    margin: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    h1 {
+        width: 90%; 
+    }
+}
+
+
+
+
+
+
+
